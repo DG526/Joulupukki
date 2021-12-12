@@ -37,4 +37,8 @@ public class HouseBehavior : MonoBehaviour
         canMove = true;
         leaving = true;
     }
+    public void Freeze()
+    {
+        canMove = false;
+    }
 }
